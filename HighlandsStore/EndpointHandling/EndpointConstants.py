@@ -1,0 +1,10 @@
+class EndpointConstants:
+    API_LOGIN = "POST https://highlandsstore.vn/LogInOut/SignIn"
+    API_GET_ALL_STORES_ID = "GET https://highlandsstore.vn/phieu-chuyen/0"
+    API_CREATE_TRANSFER = "POST https://highlandsstore.vn/Inventory/TransferVoucherInsertOrUpdate"
+    LOGIN_PAGE = "https://highlandsstore.vn/dang-nhap"
+    TRANSFER_DETAIL_PAGE = "https://highlandsstore.vn/phieu-chuyen/"
+    INVENTORY_DETAIL_PAGE = "https://highlandsstore.vn/phieu-ton-kho/"
+    API_SEARCH_PRODUCT = "POST https://highlandsstore.vn/Product/ProProductSearchPaging"
+    API_GET_INVENTORY_DATA = "POST https://highlandsstore.vn/Inventory/InventoryVoucherDetailGetListByInventoryVoucherId"
+    API_CREATE_INVENTORY_TICKET = "POST https://highlandsstore.vn/Inventory/InventoryVoucherInsertOrUpdate"
